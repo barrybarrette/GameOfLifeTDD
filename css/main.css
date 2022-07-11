@@ -1,0 +1,59 @@
+.grid-container {
+  display: grid;
+  gap: 1px;
+  justify-content: center;
+}
+
+.cell-inactive {
+  background: #999999;
+  width: 10px;
+  height: 10px;
+}
+
+.cell-active {
+  background: #056500;
+  width: 10px;
+  height: 10px;
+}
+
+#button-tray {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  padding-top: 20px;
+  gap: 50px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border: none;
+}
+
+#start-stop-button {
+  background: #49991e;
+}
+
+#reset-button {
+  background: #206799;
+}
+
+#clear-button {
+  background: #ff822d;
+}
+
+body {
+  background: #222222;
+}
+
+h1 {
+  color: #009093;
+  text-align: center;
+  font-family: Constantia, serif;
+}
+
+label {
+  color: white;
+  font-size: 30px;
+  padding-right: 10px;
+}

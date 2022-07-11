@@ -1,0 +1,20 @@
+{
+  "name": "game_of_life",
+  "version": "0.0.1",
+  "description": "TDD Demo of Conway's Game Of Life",
+  "license": "",
+  "author": "Barry Barrette",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "mocha test/**/*.js"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.2",
+    "@parcel/transformer-webmanifest": "^2.6.2",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "parcel": "^2.6.2"
+  }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Conway's Game Of Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/boilerplate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<h1>Conway's Game Of Life</h1>
+
+<div id="game-board" class="grid-container"></div>
+
+<div id="button-tray">
+    <button type="button" id="start-stop-button">Start</button>
+    <button type="button" id="reset-button">Reset</button>
+    <button type="button" id="clear-button">Clear</button>
+    <div class="slidecontainer">
+        <label for="speed-control" id="speed-control-label">Speed: 5</label>
+        <input type="range" min="1" max="10" value="5" class="slider" id="speed-control">
+    </div>
+</div>
+<script src="js/main.js" type="module"></script>
+</body>
+</html>
