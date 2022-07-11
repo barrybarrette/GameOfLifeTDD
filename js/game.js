@@ -10,6 +10,11 @@
 
 const utils = require('./utils'); // https://i.imgur.com/kbh5eJZ.jpeg
 
+/**
+ * Method that does the core game logic described above
+ * @param boardState - A 2-dimensional array of 0s and 1s representing dead and alive, respectively
+ * @type boardState number[][]
+ */
 function update(boardState) {
 
 }
