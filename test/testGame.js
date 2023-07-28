@@ -1,10 +1,10 @@
-const expect = require('chai').expect;
+const expect = require('chai').expect
 
-const game = require('../js/game');
+const game = require('../js/game')
 
 describe('Game Of Life Unit Tests', () => {
-    it('should ', function () {
+    it('should ', () => {
 
-    });
+    })
 
-});
+})

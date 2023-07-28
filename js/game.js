@@ -8,7 +8,7 @@
 // For a space that is dead:
 //    Each cell with exactly three neighbors becomes alive.
 
-const utils = require('./utils'); // https://i.imgur.com/kbh5eJZ.jpeg
+const utils = require('./utils') // https://i.imgur.com/kbh5eJZ.jpeg
 
 /**
  * Method that does the core game logic described above
@@ -20,4 +20,4 @@ function update(boardState) {
 
 }
 
-module.exports.update = update;
+module.exports.update = update
